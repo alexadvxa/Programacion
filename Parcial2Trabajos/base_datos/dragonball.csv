@@ -1,0 +1,8 @@
+"id";"user_id";"name";"race";"level";"strength";"speed";"endurance";"experience";"avatar"
+"id";"character_id";"transformation_id"
+"id";"name";"date";"winner_id"
+"id";"tournament_id";"character_id"
+"id";"name";"level_required"
+"1";"Alexa";"50"
+"id";"name";"email";"password"
+"1";"Alexa";"alexabasurto0@gmail.com";"password.1254"
