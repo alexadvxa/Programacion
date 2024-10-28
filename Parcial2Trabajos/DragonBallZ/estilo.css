@@ -1,0 +1,174 @@
+/* Estilos para el formulario de inicio y registro */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-image: url('backgrounds/Fondo1.png'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container, .register-container {
+    background-color: #0c2d62a6; /* Transparencia ligera */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.648); /* Sombra más intensa */
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #fbc02d; /* Amarillo Super Saiyajin */
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #fffafa; /* Azul oscuro */
+}
+
+input {
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #f57c00 ; /* Naranja del traje de Goku */
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #f0f0f0b6;
+}
+
+button {
+    padding: 12px;
+    background-color: #f57c00; /* Naranja Goku */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65100; /* Tono más oscuro en hover */
+}
+
+.error {
+    color: #ff3d00; /* Rojo de advertencia */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.avatar-preview {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos generales del dashboard */
+.dashboard-main, .create-character-container, .characters-list-container, .character-details-container, .leaderboard-container, .dashboard-container {
+    background-color: rgba(136, 215, 254, 0.603);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilos del contenedor principal */
+.dashboard-container {
+    width: 80%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Estilos de las fichas */
+.card {
+    width: 95%;
+    background-color: #0c2d62a6;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.655);
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #fb722d; /* Amarillo Super Saiyajin */
+}
+
+.card p {
+    color: #ffffff;
+}
+
+/* Botón en cada ficha */
+.card a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 30px;
+    background-color: #ffff13d7 ; /* Amarillo esferas */
+    color: rgb(17, 15, 15);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #f58115; /* Naranja al precionar el boton */
+}
+
+/* Ajustes para dispositivos pequeños */
+@media (max-width: 600px) {
+    .dashboard-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tabla de clasificaciones */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #1ad0f0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f56200; /* Naranja de Goku */
+    color: rgb(112, 144, 232);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+a {  
+    color: #eef145;  
+   }  
+
